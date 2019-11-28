@@ -18,3 +18,12 @@ Lancer ensuite le test dans le terminal en faisant la commande qui suit :
 `npm test` 
 
 Vos erreurs s'afficheront si elles ont lieu d'être.
+
+### Insertion d'une librairie : 
+
+Il en existe plusieurs mais j'ai choisi de prendre **chai**. 
+
+Pour cela, il faut l'installer comme suit :
+`npm install --save-dev chai`
+
+N'oubliez pas de la déclarer. La librairie Chai possède ses propres commandes tel que `assert()`, `should()` ou encore `expect()`.
