@@ -6,3 +6,15 @@ A l'intérieur créons un fichier **package.json**. L'ouvrir et écrire dans cel
 
 Retourner sur le terminal et faire la commande qui suit : 
 `npm install --save-dev mocha`
+
+### Initialisation de Mocha : 
+
+Créer un fichier **test.js**. A l'intérieur, écrire une function sum, par exemple. 
+
+Ouvrir **package.json** et ajouter :
+`"scripts": {"test": "jest"}`
+
+Lancer ensuite le test dans le terminal en faisant la commande qui suit : 
+`npm test` 
+
+Vos erreurs s'afficheront si elles ont lieu d'être.
